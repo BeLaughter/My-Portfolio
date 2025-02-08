@@ -23,7 +23,7 @@ function Project() {
             lang2="Css"
             lang3="JavaScript"
             text="Calculator built with Html css and JavaScript"
-            link1="#"
+            link1="https://calculator-seven-black-85.vercel.app"
             link2="#"
           />
         </div>
