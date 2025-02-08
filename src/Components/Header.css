@@ -1,0 +1,52 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .navbar-brand {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "poppings", sans-serif;
+    padding: 0px 20px;
+    font-size: 2rem;
+  }
+  .nav-link {
+    color: white !important;
+    font-size: 0.9rem;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .navbar-brand {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "poppings", sans-serif;
+    padding: 0px 20px;
+    font-size: 3rem;
+  }
+  .nav-link {
+    color: white !important;
+    font-size: 1.5rem;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.ha {
+  color: black;
+  background-color: rgb(65, 62, 62);
+  padding: 10px;
+  justify-content: center;
+}
+.flex-item2 {
+  width: 100%;
+}
+.Navbarret {
+  backdrop-filter: blur(30px) !important;
+  box-shadow: px Opx 30px rgba(227, 228, 237, 0.37) !important;
+  border: 2px solid rgba(255, 255, 255, 0.18) !important;
+}

@@ -1,0 +1,44 @@
+.hiddenonmobile {
+  display: block;
+}
+.hiddenonlap {
+  display: block;
+}
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .hiddenonmobile {
+    display: none;
+  }
+  .pad {
+    padding: 10px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .hiddenonlap {
+    display: none;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  .pad {
+    padding: 100px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+ul li {
+  list-style-type: none;
+}
+.orange {
+  color: #fc6704 !important;
+}
+.bgorange {
+  background-color: #fc6704 !important;
+}
