@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import Footer2 from "./Components/Footer2";
 import Body from "./Components/Body";
 import Project from "./Components/Project";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
       <Header />
       <Body />
       <Project />
+      <Contact />
+      <div className="b2top">
+        <a href="#nav">^</a>
+      </div>
       <Footer />
       <Footer2 />
     </div>

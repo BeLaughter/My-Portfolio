@@ -6,7 +6,7 @@ function Header() {
         <div className="flex-item2">
           <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container-fluid">
-              <a className="navbar-brand orange" href="#">
+              <a className="navbar-brand orange" id="nav" href="#">
                 BENSON
               </a>
               <button
@@ -33,12 +33,12 @@ function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#project">
                       Projects
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#contact">
                       Contact
                     </a>
                   </li>

@@ -42,3 +42,14 @@ ul li {
 .bgorange {
   background-color: #fc6704 !important;
 }
+.b2top {
+  position: absolute;
+  bottom: opx;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  background-color: #fc6704;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
