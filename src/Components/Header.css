@@ -50,3 +50,31 @@
   box-shadow: px Opx 30px rgba(227, 228, 237, 0.37) !important;
   border: 2px solid rgba(255, 255, 255, 0.18) !important;
 }
+
+@keyframes fadeRotate {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  25% {
+    opacity: 0.1;
+    transform: rotate(90deg);
+  }
+  50% {
+    opacity: 0.3;
+    transform: rotate(180deg);
+  }
+  75% {
+    opacity: 0.6;
+    transform: rotate(270deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling for the paragraph element */
+.ben {
+  animation: fadeRotate 4s ease-in-out; /* Apply fade and rotate animation */
+}

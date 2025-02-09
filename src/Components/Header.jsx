@@ -6,7 +6,7 @@ function Header() {
         <div className="flex-item2">
           <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container-fluid">
-              <a className="navbar-brand orange" id="nav" href="#">
+              <a className="navbar-brand orange ben" id="nav" href="#">
                 BENSON
               </a>
               <button
