@@ -24,7 +24,7 @@ function Body() {
               Benson <br></br>Iremide
             </span>
           </h1>
-          <p className="bodyp2 ">
+          <p className="bodyp2 " data-aos="fade-right" data-aos-duration="1000">
             I'm a Frontend Web Developer based in Lagos. With over 2 years of
             experience in creating responsive, user-friendly web applications, I
             specialize in React.js . Explore my portfolio to see my work and get

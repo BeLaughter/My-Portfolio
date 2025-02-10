@@ -1,12 +1,25 @@
 import "./Header.css";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Header() {
+  // Initialize AOS
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="head">
       <div className="flex-container">
         <div className="flex-item2">
           <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container-fluid">
-              <a className="navbar-brand orange" id="nav" href="#">
+              <a
+                className="navbar-brand orange"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+                id="nav"
+                href="#"
+              >
                 BENSON
               </a>
               <button
