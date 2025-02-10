@@ -34,6 +34,7 @@
 .picard {
   position: relative;
   display: inline-block;
+  height: 30vh !important;
 }
 
 .picard:hover .boxbt {
@@ -60,7 +61,7 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  background-color: rgba(73, 152, 201, 0.5) !important;
+  background-color: rgba(30, 157, 236, 0.5) !important;
   border-radius: 10px;
   margin-bottom: 10px;
 }

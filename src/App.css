@@ -57,27 +57,3 @@ ul li {
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
 }
-
-@keyframes textAnimation {
-  0% {
-    transform: translateX(0);
-    font-size: 2em;
-    color: #ff6347;
-  }
-  50% {
-    transform: translateX(10px);
-    font-size: 3em; /* The text grows to 3em */
-    color: #32cd32;
-  }
-  100% {
-    transform: translateX(0);
-    font-size: 2em; /* The text returns to its original size */
-    color: #1e90ff;
-  }
-}
-
-/* Styling for the paragraph element */
-h1 {
-  font-weight: bold;
-  animation: textAnimation 3s;
-}
