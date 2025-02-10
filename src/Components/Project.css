@@ -35,7 +35,6 @@
   position: relative;
   display: inline-block;
   height: 30vh !important;
-  border-radius:20px;
 }
 
 .picard:hover .boxbt {
