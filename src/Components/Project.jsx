@@ -3,7 +3,7 @@ import "./Project.css";
 function Project() {
   return (
     <div className="pad" id="project">
-      <h1 className="projecth1">Project </h1>
+      <h1 className="projecth1">Projects </h1>
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
