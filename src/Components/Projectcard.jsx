@@ -34,7 +34,7 @@ function Projectcard(props) {
 
       <div className="row mrow">
         <div className="col">
-          <p>{props.text}</p>
+          <p className="ptext">{props.text}</p>
         </div>
       </div>
     </div>

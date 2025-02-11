@@ -16,7 +16,7 @@ function Header() {
               <a
                 className="navbar-brand orange"
                 data-aos="flip-right"
-                data-aos-duration="1000"
+                data-aos-duration="2500"
                 id="nav"
                 href="#"
               >

@@ -18,6 +18,7 @@ function Body() {
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
+            data-aos-duration="1500"
           >
             Hi,{" "}
           </p>
@@ -32,7 +33,7 @@ function Body() {
               Benson <br></br>Iremide
             </span>
           </h1>
-          <p className="bodyp2 " data-aos="fade-right" data-aos-duration="1000">
+          <p className="bodyp2 " data-aos="fade-right" data-aos-duration="1500">
             I'm a Frontend Web Developer based in Lagos. With over 2 years of
             experience in creating responsive, user-friendly web applications, I
             specialize in React.js . Explore my portfolio to see my work and get

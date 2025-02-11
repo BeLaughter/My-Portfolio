@@ -33,14 +33,16 @@
 /* stylings that doesnt affect screens only */
 .picard {
   position: relative;
-  display: inline-block;
-  height: 30vh !important;
+  width: 100% !important;
+  height: 35vh !important;
 }
 
 .picard:hover .boxbt {
   opacity: 1;
 }
-
+.ptext {
+  color: #faf8f8;
+}
 .boxbt {
   position: absolute;
   top: 0;
@@ -55,13 +57,12 @@
 .card-img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
 }
 .projectcard {
   width: 100%;
   height: auto;
   overflow: hidden;
-  background-color: rgba(30, 157, 236, 0.5) !important;
+  background-color: rgba(31, 94, 133, 0.5) !important;
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
