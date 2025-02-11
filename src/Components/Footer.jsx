@@ -13,7 +13,7 @@ function Footer() {
         <div className="flex-item">
           <ul>
             <li>
-              <h1>LOGO</h1>
+              <h1> Contact</h1>
             </li>
             <li>Email: Laughteriremide@gmail.com</li>
             <li>Contact: 08069374133</li>
@@ -57,7 +57,7 @@ function Footer() {
         </div>
         <div className="flex-item4">
           <h1 className="pfoot">NEWS LETTER</h1>
-          <p className="">Stay updated with our latest news and trends.</p>
+          <p className="">Stay updated with my latest projects and news</p>
           <div className="d-flex">
             <input
               type="email"
