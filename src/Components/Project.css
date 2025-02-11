@@ -64,6 +64,7 @@
   background-color: rgba(30, 157, 236, 0.5) !important;
   border-radius: 10px;
   margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
 }
 .bt {
   margin: 10px;

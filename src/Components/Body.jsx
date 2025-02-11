@@ -13,14 +13,22 @@ function Body() {
     <div className="body">
       <div className="flex-container">
         <div className="flex-itemb">
-          <p className="bodyp1">Hi, </p>
-          <h1 className="bodyh1">
+          <p
+            className="bodyp1"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Hi,{" "}
+          </p>
+          <h1
+            className="bodyh1"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             I'm
-            <span
-              className="orange"
-              data-aos="zoom-in-right"
-              data-aos-duration="500"
-            >
+            <span className="orange">
               Benson <br></br>Iremide
             </span>
           </h1>
@@ -45,6 +53,8 @@ function Body() {
             src="https://i.ibb.co/q30G4jWC/IMG-6412.jpg"
             alt="Image 3"
             className="d-block w-100 imgh"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
           ></img>
         </div>
       </div>
