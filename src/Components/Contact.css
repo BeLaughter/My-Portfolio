@@ -36,7 +36,9 @@
 @media (min-width: 769px) {
   .flex {
     display: flex;
+    margin-top: 40px;
   }
+
   .flex-item-contact1 {
     width: 30%;
     margin-right: 30px;
