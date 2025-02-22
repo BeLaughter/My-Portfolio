@@ -9,7 +9,7 @@ function Projectcard(props) {
             alt="web development course"
             className="card-img"
           />
-          <div className="boxbt flex-container justify-content-center">
+          <div className="boxbt flex-container justify-content-center hiddenonmobile">
             <a href={props.link1} target="blank" className="bt">
               View Project
             </a>
@@ -30,6 +30,14 @@ function Projectcard(props) {
         <div className="col orange">
           <a>{props.lang3}</a>
         </div>
+      </div>
+      <div className="hiddenonlap proanc">
+        <a href={props.link1} target="blank" className="bt">
+          View Project
+        </a>
+        <a href={props.link2} target="blank" className="bt">
+          View Code
+        </a>
       </div>
 
       <div className="row mrow">

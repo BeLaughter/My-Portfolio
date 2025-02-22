@@ -36,7 +36,7 @@ function Project() {
             lang=" Html"
             lang2=" Css"
             lang3=" Bootstrap"
-            text="React Pizza webpage built with react.js, html, css & bootstrap"
+            text="React Pizza webpage built with html, css & bootstrap"
             link1="https://pizza-page-khaki.vercel.app/#contact"
             link2="https://github.com/BeLaughter/Pizza-page/tree/main"
           />
