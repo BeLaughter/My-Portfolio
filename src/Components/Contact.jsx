@@ -10,7 +10,7 @@ function Contact() {
       <div className="flex-container">
         <div className="flex-item-contact1">
           <h3 className="orange">Contact Info</h3>
-          <p>
+          <p className="grey">
             I’d love to hear from you! Whether you’re interested in
             collaborating on a project, have questions, or just want to connect,
             feel free to reach out. I’m always open to new opportunities and
@@ -19,21 +19,21 @@ function Contact() {
           <ul>
             <li className="flex">
               <FaMapMarker className="iconsz orange" />
-              <p>
+              <p className="grey">
                 Address<br></br>6b, Adebisi Alabi street,<br></br> Alakuko,
                 Lagos State.
               </p>
             </li>
             <li className="flex">
               <FaPhone className="iconsz orange" />
-              <p>
+              <p className="grey">
                 Hotline<br></br>
                 08069374133, 08053100515
               </p>
             </li>
             <li className="flex">
               <FaMailBulk className="iconsz orange" />
-              <p>
+              <p className="grey">
                 Email<br></br>Laughteriremide@gmail.com
               </p>
             </li>
@@ -58,7 +58,7 @@ function Contact() {
           <div className="flex-container-input">
             <input
               type="text"
-              className="input"
+              className="input "
               name="name"
               placeholder="Enter your name"
               required

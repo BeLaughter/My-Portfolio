@@ -32,13 +32,13 @@ function Project() {
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
-            img="https://i.ibb.co/S4WS1SJ9/IMG-6416.jpg"
+            img="https://i.ibb.co/sJHBrdhJ/c1203761-ac06-427d-8103-172b92b2cdae.jpg"
             lang=" Html"
             lang2=" Css"
             lang3=" Bootstrap"
-            text="React practice webpage built with react.js, html, css & bootstrap"
-            link1="https://react-gilt-beta.vercel.app/"
-            link2="https://github.com/BeLaughter/react/tree/main"
+            text="React Pizza webpage built with react.js, html, css & bootstrap"
+            link1="https://pizza-page-khaki.vercel.app/#contact"
+            link2="https://github.com/BeLaughter/Pizza-page/tree/main"
           />
         </div>
         <div className="flex-itemb">

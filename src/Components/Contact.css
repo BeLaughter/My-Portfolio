@@ -84,3 +84,7 @@
   box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
   background-color: #;
 }
+.grey {
+  color: #142517 !important;
+  font-family: "poppings", sans-serif;
+}
