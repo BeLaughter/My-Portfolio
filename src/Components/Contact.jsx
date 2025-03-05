@@ -18,21 +18,21 @@ function Contact() {
           </p>
           <ul>
             <li className="flex">
-              <FaMapMarker className="iconsz grey" />
+              <FaMapMarker className="iconsz" />
               <p className="grey">
                 Address<br></br>6b, Adebisi Alabi street,<br></br> Alakuko,
                 Lagos State.
               </p>
             </li>
             <li className="flex">
-              <FaPhone className="iconsz grey" />
+              <FaPhone className="iconsz " />
               <p className="grey">
                 Hotline<br></br>
                 08069374133, 08053100515
               </p>
             </li>
             <li className="flex">
-              <FaMailBulk className="iconsz grey" />
+              <FaMailBulk className="iconsz" />
               <p className="grey">
                 Email<br></br>Laughteriremide@gmail.com
               </p>
@@ -85,7 +85,7 @@ function Contact() {
           <br></br>
           <input
             type="button"
-            className="input-btn btn bgorange"
+            className="input-btn bgorange"
             value="SUBMIT"
             required
           ></input>

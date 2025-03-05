@@ -43,22 +43,20 @@
 }
 
 .iconsz {
-  width: 35px !important;
-  height: 35px !important;
+  width: 40px !important;
+  height: 40px !important;
   margin: 5px;
+  padding: 6px;
   border-radius: 50%;
+  color: white;
+  box-shadow: 0 0 2px 3px #2cff6d;
   background-color: #142517;
-  color: rgb(17, 17, 17);
-  box-shadow: 0 0 2px 2px #2cff6d;
-  background-color: #fcfafa;
 }
-.btn {
-  box-shadow: 0 0 2px 2px #2cff6d;
-}
-.iconsz:hover {
-  color: rgb(247, 243, 243);
 
-  background-color: #2cff6d !important;
+.iconsz:hover {
+  color: #142517;
+
+  background-color: white !important;
 }
 .hr {
   margin-top: 0px !important;

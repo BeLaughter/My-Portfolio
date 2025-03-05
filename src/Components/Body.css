@@ -18,7 +18,7 @@
     font-weight: bold;
   }
   .bodyp2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: "poppings", sans-serif;
   }
   .flex-itemb {
@@ -99,4 +99,31 @@
 }
 .flex-containerz {
   display: flex;
+}
+
+/* bouncing css  */
+
+.bouncing-circle {
+  margin-top: 60px;
+  animation: bounce-grow 4s ease-in-out;
+}
+
+@keyframes bounce-grow {
+  0% {
+    transform: translateY(0) scale(0.1);
+  }
+
+  25% {
+    transform: translateY(-130px) scale(0.1);
+  }
+  50% {
+    transform: translateY(0px) scale(0.1); /* Higher bounce & growth */
+  }
+
+  75% {
+    transform: translateY(-130px) scale(0.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }

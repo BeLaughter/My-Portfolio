@@ -51,7 +51,7 @@ function Body() {
           </a>
         </div>
         <div className="flex-itemb">
-          <div className="img-body" data-aos="fade-up" data-aos-duration="1500">
+          <div className="img-body bouncing-circle">
             <img
               src={mypic}
               alt="Image 3"
