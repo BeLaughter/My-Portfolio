@@ -43,16 +43,19 @@
 }
 
 .iconsz {
-  width: 30px !important;
-  height: 30px !important;
+  width: 35px !important;
+  height: 35px !important;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 50%;
+  background-color: #142517;
   color: rgb(17, 17, 17);
+  box-shadow: 0 0 2px 2px #2cff6d;
   background-color: #fcfafa;
 }
 .iconsz:hover {
   color: rgb(247, 243, 243);
-  background-color: #fc2104 !important;
+
+  background-color: #2cff6d !important;
 }
 .hr {
   margin-top: 0px !important;

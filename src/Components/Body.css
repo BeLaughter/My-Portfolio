@@ -4,6 +4,9 @@
   .body {
     padding: 30px;
   }
+  .flex-containerz {
+    flex-direction: column-reverse !important;
+  }
   .bodyp1 {
     font-size: 1.5rem;
     font-family: "poppings", sans-serif;
@@ -20,6 +23,23 @@
   }
   .flex-itemb {
     margin-bottom: 20px;
+  }
+  .imgh {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  .img-body {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #2cff6d;
+  }
+  .img-body:hover {
+    box-shadow: 0 0 40px 10px #2cff6d;
   }
 }
 
@@ -51,6 +71,23 @@
     width: 50%;
     margin: 10px;
   }
+  .imgh {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  .img-body {
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #2cff6d;
+  }
+  .img-body:hover {
+    box-shadow: 0 0 40px 10px #2cff6d;
+  }
 }
 
 /* stylings that doesnt affect screens only */
@@ -60,7 +97,6 @@
   background-color: #142517;
   align-items: center;
 }
-.imgh {
-  margin-top: 20px;
-  height: 100%;
+.flex-containerz {
+  display: flex;
 }
