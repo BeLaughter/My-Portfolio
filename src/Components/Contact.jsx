@@ -9,7 +9,7 @@ function Contact() {
       </h1>
       <div className="flex-container">
         <div className="flex-item-contact1">
-          <h3 className="orange">Contact Info</h3>
+          <h3 className="grey">Contact Info</h3>
           <p className="grey">
             I’d love to hear from you! Whether you’re interested in
             collaborating on a project, have questions, or just want to connect,
@@ -40,7 +40,7 @@ function Contact() {
           </ul>
         </div>
         <div className="flex-item-contact2">
-          <h3 className="orange">Get In Touch</h3>
+          <h3 className="">Get In Touch</h3>
           <p>
             I aim to respond as quickly as possible and look forward to hearing
             from you soon!{" "}

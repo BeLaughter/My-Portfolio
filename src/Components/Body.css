@@ -41,6 +41,9 @@
   .img-body:hover {
     box-shadow: 0 0 40px 10px #2cff6d;
   }
+  .bouncing-circle {
+    margin-top: 70px;
+  }
 }
 
 /* style contents for larger screens only */
@@ -104,7 +107,6 @@
 /* bouncing css  */
 
 .bouncing-circle {
-  margin-top: 60px;
   animation: bounce-grow 4s ease-in-out;
 }
 
@@ -114,14 +116,14 @@
   }
 
   25% {
-    transform: translateY(-130px) scale(0.1);
+    transform: translateY(-130px) scale(0.25);
   }
   50% {
-    transform: translateY(0px) scale(0.1); /* Higher bounce & growth */
+    transform: translateY(0px) scale(0.5);
   }
 
   75% {
-    transform: translateY(-130px) scale(0.1);
+    transform: translateY(-130px) scale(0.75);
   }
   100% {
     transform: translateY(0) scale(1);
