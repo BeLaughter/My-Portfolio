@@ -1,0 +1,55 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .body {
+    padding: 30px;
+  }
+  .skill {
+    margin: 30px;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+  }
+  .skil {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: auto !important;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .body {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: 100px;
+  }
+  .flex-containerk {
+    display: flex;
+    margin: 20px;
+  }
+  .skill {
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+  }
+  .skil {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: auto !important;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+
+.body {
+  color: white;
+  background-color: #142517;
+  align-items: center;
+}

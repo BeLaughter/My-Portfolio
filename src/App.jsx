@@ -6,6 +6,7 @@ import Footer2 from "./Components/Footer2";
 import Body from "./Components/Body";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Body />
       <Project />
+      <Skills />
       <Contact />
       <div className="b2top">
         <a href="#nav">^</a>
