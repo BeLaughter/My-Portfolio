@@ -1,5 +1,7 @@
 import Projectcard from "./Projectcard";
 import "./Project.css";
+import cap1 from "../assets/cap1.PNG?url";
+import cap2 from "../assets/cap2.PNG?url";
 function Project() {
   return (
     <div className="pad" id="project">
@@ -75,6 +77,32 @@ function Project() {
             text="Form page with form validation built with javascript css and html"
             link1="https://form-bay-pi.vercel.app"
             link2="https://github.com/BeLaughter/form/tree/main"
+          />
+        </div>
+      </div>
+
+      {/* four*/}
+      <div className="flex-container">
+        <div className="flex-itemb">
+          <Projectcard
+            img={cap2}
+            lang=" Html"
+            lang2=" React"
+            lang3=" Bootstrap"
+            text="Nftpage webpage built with  React"
+            link1="https://nftpage-jade.vercel.app/"
+            link2="https://github.com/BeLaughter/Nftpage"
+          />
+        </div>
+        <div className="flex-itemb">
+          <Projectcard
+            img={cap1}
+            lang="Html"
+            lang2="JavaScript"
+            lang3="React"
+            text="Cworld page with form validation built with javascript and React"
+            link1="https://cworld.vercel.app/"
+            link2="https://github.com/BeLaughter/Cworld"
           />
         </div>
       </div>
