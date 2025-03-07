@@ -6,6 +6,32 @@ function Project() {
   return (
     <div className="pad" id="project">
       <h1 className="projecth1">Projects </h1>
+
+      {/* four*/}
+      <div className="flex-container">
+        <div className="flex-itemb">
+          <Projectcard
+            img={cap2}
+            lang=" Html"
+            lang2=" React"
+            lang3=" Bootstrap"
+            text="Nftpage webpage built with  React"
+            link1="https://nftpage-jade.vercel.app/"
+            link2="https://github.com/BeLaughter/Nftpage"
+          />
+        </div>
+        <div className="flex-itemb">
+          <Projectcard
+            img={cap1}
+            lang="Html"
+            lang2="JavaScript"
+            lang3="React"
+            text="Cworld page with form validation built with javascript and React"
+            link1="https://cworld.vercel.app/"
+            link2="https://github.com/BeLaughter/Cworld"
+          />
+        </div>
+      </div>
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -20,20 +46,6 @@ function Project() {
         </div>
         <div className="flex-itemb">
           <Projectcard
-            img="https://i.ibb.co/jkQkn4N4/IMG-6415.jpg"
-            lang="Html"
-            lang2="Css"
-            lang3="JavaScript"
-            text="Calculator built with Html css and JavaScript"
-            link1="https://calculator-seven-black-85.vercel.app"
-            link2="https://github.com/BeLaughter/calculator/tree/main"
-          />
-        </div>
-      </div>
-      {/* second  */}
-      <div className="flex-container">
-        <div className="flex-itemb">
-          <Projectcard
             img="https://i.ibb.co/sJHBrdhJ/c1203761-ac06-427d-8103-172b92b2cdae.jpg"
             lang=" Html"
             lang2=" Css"
@@ -41,6 +53,20 @@ function Project() {
             text="React Pizza webpage built with html, css & bootstrap"
             link1="https://pizza-page-khaki.vercel.app/#contact"
             link2="https://github.com/BeLaughter/Pizza-page/tree/main"
+          />
+        </div>
+      </div>
+      {/* second  */}
+      <div className="flex-container">
+        <div className="flex-itemb">
+          <Projectcard
+            img="https://i.ibb.co/jkQkn4N4/IMG-6415.jpg"
+            lang="Html"
+            lang2="Css"
+            lang3="JavaScript"
+            text="Calculator built with Html css and JavaScript"
+            link1="https://calculator-seven-black-85.vercel.app"
+            link2="https://github.com/BeLaughter/calculator/tree/main"
           />
         </div>
         <div className="flex-itemb">
@@ -77,32 +103,6 @@ function Project() {
             text="Form page with form validation built with javascript css and html"
             link1="https://form-bay-pi.vercel.app"
             link2="https://github.com/BeLaughter/form/tree/main"
-          />
-        </div>
-      </div>
-
-      {/* four*/}
-      <div className="flex-container">
-        <div className="flex-itemb">
-          <Projectcard
-            img={cap2}
-            lang=" Html"
-            lang2=" React"
-            lang3=" Bootstrap"
-            text="Nftpage webpage built with  React"
-            link1="https://nftpage-jade.vercel.app/"
-            link2="https://github.com/BeLaughter/Nftpage"
-          />
-        </div>
-        <div className="flex-itemb">
-          <Projectcard
-            img={cap1}
-            lang="Html"
-            lang2="JavaScript"
-            lang3="React"
-            text="Cworld page with form validation built with javascript and React"
-            link1="https://cworld.vercel.app/"
-            link2="https://github.com/BeLaughter/Cworld"
           />
         </div>
       </div>
