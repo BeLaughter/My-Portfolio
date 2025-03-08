@@ -53,3 +53,8 @@
   background-color: #142517;
   align-items: center;
 }
+.skill-icon {
+  width: 100%;
+  height: 60px;
+  align-items: center;
+}

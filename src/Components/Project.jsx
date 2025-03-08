@@ -15,7 +15,7 @@ function Project() {
             lang=" Html"
             lang2=" React"
             lang3=" Bootstrap"
-            text="Nftpage webpage built with  React"
+            text="Nft webpage built with  React"
             link1="https://nftpage-jade.vercel.app/"
             link2="https://github.com/BeLaughter/Nftpage"
           />
@@ -26,7 +26,7 @@ function Project() {
             lang="Html"
             lang2="JavaScript"
             lang3="React"
-            text="Cworld page with form validation built with javascript and React"
+            text="Cworld page built with javascript and React"
             link1="https://cworld.vercel.app/"
             link2="https://github.com/BeLaughter/Cworld"
           />
@@ -48,9 +48,9 @@ function Project() {
           <Projectcard
             img="https://i.ibb.co/sJHBrdhJ/c1203761-ac06-427d-8103-172b92b2cdae.jpg"
             lang=" Html"
-            lang2=" Css"
+            lang2=" React"
             lang3=" Bootstrap"
-            text="React Pizza webpage built with html, css & bootstrap"
+            text=" Pizza webpage built with React & bootstrap"
             link1="https://pizza-page-khaki.vercel.app/#contact"
             link2="https://github.com/BeLaughter/Pizza-page/tree/main"
           />
