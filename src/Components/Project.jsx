@@ -2,12 +2,29 @@ import Projectcard from "./Projectcard";
 import "./Project.css";
 import cap1 from "../assets/cap1.PNG?url";
 import cap2 from "../assets/cap2.PNG?url";
+import cap3 from "../assets/cap3.PNG?url";
 function Project() {
   return (
     <div className="pad" id="project">
       <h1 className="projecth1">Projects </h1>
-
-      {/* four*/}
+      {/* initial */}
+      <div className="flex-container">
+        <div className="flex-itemb">
+          <Projectcard
+            img={cap3}
+            lang=" Html"
+            lang2=" React"
+            lang3=" Bootstrap"
+            text=" Roserlaw School website built with  React & Firebase"
+            link1="https://roserlaw.vercel.app/"
+            link2="https://github.com/BeLaughter/Roserlaw"
+          />
+        </div>
+        <div className="flex-itemb">
+          <p>project loading...</p>
+        </div>
+      </div>
+      {/* first */}
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -32,6 +49,8 @@ function Project() {
           />
         </div>
       </div>
+      {/* second */}
+
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -56,7 +75,7 @@ function Project() {
           />
         </div>
       </div>
-      {/* second  */}
+      {/*third  */}
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -81,7 +100,7 @@ function Project() {
           />
         </div>
       </div>
-      {/* third */}
+      {/*four*/}
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
