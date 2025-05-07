@@ -39,19 +39,19 @@ function Footer() {
               <h1>Skills</h1>
             </li>
             <li>
-              <p>- Html</p>
+              <p>-Html & Css</p>
             </li>
             <li>
-              <p>- Css</p>
+              <p>-Javascript </p>
             </li>
             <li>
-              <p>- Javascript</p>
+              <p>-Bootstrap & Tailwind Css </p>
             </li>
             <li>
-              <p>- Bootstrap</p>
+              <p>-React,Vite </p>
             </li>
             <li>
-              <p>- React</p>
+              <p>-Mongodb, Express </p>
             </li>
           </ul>
         </div>
