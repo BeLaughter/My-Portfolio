@@ -1,7 +1,7 @@
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "./Body.css";
 import { useEffect } from "react";
-import mypic from "../assets/mypic.png";
+import mypic2 from "../assets/mypic2.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -53,7 +53,7 @@ function Body() {
         <div className="flex-itemb">
           <div className="img-body bouncing-circle">
             <img
-              src={mypic}
+              src={mypic2}
               alt="Image 3"
               className="d-block w-100 imgh"
               data-aos="zoom-in-up"

@@ -7,7 +7,7 @@ import Body from "./Components/Body";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import Skills from "./Components/Skills";
-
+import { FaArrowUp } from "react-icons/fa";
 function App() {
   return (
     <div>
@@ -17,7 +17,9 @@ function App() {
       <Skills />
       <Contact />
       <div className="b2top">
-        <a href="#nav">^</a>
+        <a href="#nav">
+          <FaArrowUp />
+        </a>
       </div>
       <Footer />
       <Footer2 />

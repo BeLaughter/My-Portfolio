@@ -3,12 +3,24 @@ import "./Project.css";
 import cap1 from "../assets/cap1.PNG?url";
 import cap2 from "../assets/cap2.PNG?url";
 import cap3 from "../assets/cap3.PNG?url";
+import cap4 from "../assets/cap4.PNG?url";
 function Project() {
   return (
     <div className="pad" id="project">
       <h1 className="projecth1">Projects </h1>
       {/* initial */}
       <div className="flex-container">
+        <div className="flex-itemb">
+          <Projectcard
+            img={cap4}
+            lang=" Html"
+            lang2=" React"
+            lang3=" Bootstrap"
+            text=" Flipmart e-commerce marketplace website built with React"
+            link1="https://flipmart-psi.vercel.app/"
+            link2="https://github.com/BeLaughter/Flipmart"
+          />
+        </div>
         <div className="flex-itemb">
           <Projectcard
             img={cap3}
@@ -19,9 +31,6 @@ function Project() {
             link1="https://roserlaw.vercel.app/"
             link2="https://github.com/BeLaughter/Roserlaw"
           />
-        </div>
-        <div className="flex-itemb">
-          <p>project loading...</p>
         </div>
       </div>
       {/* first */}
@@ -124,6 +133,13 @@ function Project() {
             link2="https://github.com/BeLaughter/form/tree/main"
           />
         </div>
+      </div>
+      {/* first */}
+      <div className="flex-container">
+        <div className="flex-itemb">
+          <p>More projects incoming...</p>
+        </div>
+        <div className="flex-itemb">{/* ... */}</div>
       </div>
     </div>
   );
