@@ -8,7 +8,7 @@ function Project() {
   return (
     <div className="pad" id="project">
       <h1 className="projecth1">Projects </h1>
-      {/* initial */}
+      {/* fifth */}
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -33,7 +33,7 @@ function Project() {
           />
         </div>
       </div>
-      {/* first */}
+      {/* fourth */}
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -58,7 +58,7 @@ function Project() {
           />
         </div>
       </div>
-      {/* second */}
+      {/* third */}
 
       <div className="flex-container">
         <div className="flex-itemb">
@@ -84,7 +84,7 @@ function Project() {
           />
         </div>
       </div>
-      {/*third  */}
+      {/*second*/}
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -109,7 +109,7 @@ function Project() {
           />
         </div>
       </div>
-      {/*four*/}
+      {/*first*/}
       <div className="flex-container">
         <div className="flex-itemb">
           <Projectcard
@@ -134,12 +134,9 @@ function Project() {
           />
         </div>
       </div>
-      {/* first */}
-      <div className="flex-container">
-        <div className="flex-itemb">
-          <p>More projects incoming...</p>
-        </div>
-        <div className="flex-itemb">{/* ... */}</div>
+      {/* incoming  */}
+      <div>
+        <p>More projects incoming...</p>
       </div>
     </div>
   );
